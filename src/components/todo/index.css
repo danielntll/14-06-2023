@@ -1,0 +1,25 @@
+.Todo {
+  padding: 10px;
+  background-color: rgb(139, 139, 139);
+  border-radius: var(--border-radius);
+}
+
+.Todo__content {
+}
+.Todo__content__header {
+  margin: 0;
+  font-weight: 800;
+}
+.Todo__content__body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.Todo__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
